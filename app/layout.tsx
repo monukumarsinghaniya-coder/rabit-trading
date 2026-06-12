@@ -13,8 +13,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rabit Trading AI",
-  description: "AI Powered Stock Analysis Platform",
+  title: "Rabit Trading AI - AI Powered Stock Analysis",
+  description:
+    "AI powered stock analysis platform for intraday, swing trading and long term investing.",
+  keywords: [
+    "stock analysis",
+    "AI trading",
+    "stock market",
+    "intraday trading",
+    "swing trading",
+    "Rabit Trading AI",
+    "stock prediction",
+    "AI stock analysis",
+    "Indian stock market",
+  ],
   verification: {
     google: "DBN8gknd-wyeG7O6Pf2TbVmErX0tIqnQi0FMOXhtPq4",
   },
