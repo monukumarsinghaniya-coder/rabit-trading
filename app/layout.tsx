@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Rabit Trading AI",
   description: "AI Powered Stock Analysis Platform",
+  verification: {
+    google: "DBN8gknd-wyeG7O6Pf2TbVmErX0tIqnQi0FMOXhtPq4",
+  },
 };
 
 export default function RootLayout({
@@ -27,12 +30,6 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
-      <head>
-        <meta
-          name="google-site-verification"
-          content="DBN8gknd-wyeG7O6Pf2TbVmErX0tIqnQi0FMOXhtPq4"
-        />
-      </head>
       <body>{children}</body>
     </html>
   );
